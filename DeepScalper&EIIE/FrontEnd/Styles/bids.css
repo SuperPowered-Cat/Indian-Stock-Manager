@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bids-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .bids-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bids-table th,
+  .bids-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .bids-table th {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .bids-table tbody tr {
+    background-color: #1e1e1e;
+  }
+  
+  .bids-table tbody tr:nth-child(even) {
+    background-color: #222222;
+  }
+  
+  .bids-table tbody tr.status-apply {
+    background-color: #004d40;
+  }
+  
+  .bids-table tbody tr.status-pre-apply {
+    background-color: #3e2723;
+  }
+  
+  .bids-table tbody tr.status-upcoming {
+    background-color: #2e7d32;
+  }
+  
+  .bids-table tbody tr.status-closed {
+    background-color: #616161;
+  }
+  
+  button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-apply {
+    background-color: #00796b;
+    color: #ffffff;
+  }
+  
+  .btn-pre-apply {
+    background-color: #d84315;
+    color: #ffffff;
+  }
+  
+  .btn-upcoming {
+    background-color: #388e3c;
+    color: #ffffff;
+  }
+  
+  .btn-closed {
+    background-color: #757575;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .funds-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add-funds {
+    background-color: #4caf50;
+    color: #ffffff;
+  }
+  
+  .btn-withdraw {
+    background-color: #1e88e5;
+    color: #ffffff;
+  }
+  
+  .funds-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .funds-section {
+    flex: 1;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .funds-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .funds-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .funds-row:last-child {
+    border-bottom: none;
+  }
+  
+  .funds-row span {
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,169 @@
+/*Light theme*/
+/*body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    flex: 0 0 auto;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.market-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.market-name {
+    font-weight: bold;
+    color: #ff4d4f;
+}
+
+.market-value {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.market-change {
+    font-size: 11px;
+    color: gray;
+}
+
+.navbar-right {
+    flex: 0 0 auto;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.navbar-right .menu {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    cursor: pointer;
+    font-size: 13px;
+    color: #555;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.menu li:hover {
+    color: #ff4d4f;
+}*/
+
+/*Dark theme*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #404040;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    flex: 0 0 auto;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.market-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.market-name {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.market-value {
+    font-size: 13px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.market-change {
+    font-size: 11px;
+    color: #a0a0a0;
+}
+
+.navbar-right {
+    flex: 0 0 auto;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.navbar-right .menu {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    cursor: pointer;
+    font-size: 13px;
+    color: #a0a0a0;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.menu li:hover {
+    color: #646cff;
+}

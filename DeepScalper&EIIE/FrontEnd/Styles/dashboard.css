@@ -1,0 +1,212 @@
+/* Main layout */
+.dashboard-container {
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-greeting {
+    font-size: 24px;
+    color: #444;
+    font-weight: 400;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .nav-item {
+    color: #444;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .nav-item.active {
+    color: #ff5722;
+    border-bottom: 2px solid #ff5722;
+  }
+  
+  /* Card layouts */
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .card-title .icon {
+    width: 20px;
+    height: 20px;
+    color: #666;
+  }
+  
+  /* Margin details */
+  .margin-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .margin-item {
+    color: #666;
+  }
+  
+  .margin-value {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .margin-label {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .view-statement {
+    color: #3366ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Holdings section */
+  .holdings {
+    margin-top: 30px;
+  }
+  
+  .holdings-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .holdings-count {
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .pnl {
+    font-size: 32px;
+    color: #ff5722;
+    margin-bottom: 10px;
+  }
+  
+  .pnl-percentage {
+    color: #ff5722;
+    font-size: 14px;
+  }
+  
+  /* Value bar */
+  .value-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  
+  .value-bar-segments {
+    display: flex;
+    height: 100%;
+  }
+  
+  .segment {
+    height: 100%;
+  }
+  
+  .segment-1 { background: #1976d2; }
+  .segment-2 { background: #00bcd4; }
+  .segment-3 { background: #673ab7; }
+  .segment-4 { background: #009688; }
+  
+  /* Value details */
+  .value-details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .value-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .radio-button {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #666;
+    border-radius: 50%;
+  }
+  
+  .radio-button.active {
+    border-color: #1976d2;
+    background: #fff;
+    box-shadow: inset 0 0 0 4px #1976d2;
+  }
+  
+  /* Market overview */
+  .market-overview {
+    margin-top: 30px;
+  }
+  
+  .market-graph {
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .nifty-line {
+    stroke: #1976d2;
+    stroke-width: 2;
+    fill: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .value-details {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Utility classes */
+  .text-right { text-align: right; }
+  .text-large { font-size: 24px; }
+  .text-small { font-size: 14px; }
+  .text-muted { color: #888; }
